@@ -1,0 +1,169 @@
+.header {
+  width: 100%;
+}
+
+.header_to {
+  background-color: #032154;
+  padding: 9px 0;
+}
+
+ul.lan li i {
+  padding-right: 5px;
+}
+
+ul.lan li {
+  float: left;
+  color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.select-box {
+  cursor: pointer;
+  position: relative;
+  max-width: 100px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.select,
+.label {
+  color: #fff;
+  display: block;
+  font-size: 16px;
+}
+
+.select {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  padding: 5px 0;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  background: none transparent;
+  border: 0 none;
+}
+
+.select-box1 {
+  border-radius: 30px;
+}
+
+.label {
+  position: relative;
+  padding: 0px 23px 0px 9px;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+.open .label::after {
+  content: "▲";
+}
+
+.label::after {
+  content: "▼";
+  font-size: 15px;
+  position: absolute;
+  right: -3px;
+  top: 5px;
+  background: #f2db18;
+  width: 20px;
+  height: 21px;
+  line-height: 15px;
+  text-align: center;
+  padding-top: 3px;
+}
+
+ul.social_icon1 {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+ul.social_icon1 li {
+  height: 30px;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-right: 15px;
+}
+
+ul.social_icon1 li a {
+  color: #fff;
+  float: left;
+  text-align: center;
+  line-height: 31px;
+  border-radius: 100%;
+  font-size: 20px;
+}
+
+ul.social_icon1 li:last-child {
+  padding-right: 0px;
+}
+
+.header_midil {
+  background-color: #fff;
+  width: 100%;
+  padding: 45px 0;
+}
+
+.logo {
+  text-align: center;
+  display: block;
+}
+
+.d_none1 {
+  text-align: right;
+}
+
+ul.conta_icon li {
+  display: inline-block;
+}
+
+ul.conta_icon li a i {
+  padding-right: 5px;
+  color: #f2db18;
+}
+
+ul.conta_icon li a {
+  color: #271e0a;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+ul.conta_icon li a:hover {
+  color: #f2db18;
+  text-decoration: underline !important;
+}
+
+.search {
+  padding: 24px 0;
+  text-align: right;
+}
+
+.form_sea {
+  border: #fff solid 1px;
+  padding: 0px 15px;
+  color: #000;
+  height: 40px;
+  position: relative;
+  width: 100%;
+  font-size: 17px;
+}
+
+.seach_icon {
+  position: absolute;
+  margin-left: -30px;
+  z-index: 999;
+  background: transparent;
+  padding: 4px 0px 0px 0px;
+  color: #b7b7b7;
+  font-size: 17px;
+}
+
+.header_bo {
+  background-color: #032154;
+  width: 100%;
+  height: 70px;
+}

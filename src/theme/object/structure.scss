@@ -1,0 +1,37 @@
+// estructura web
+.container {
+  max-width: 1172px;
+}
+
+.full {
+  float: left;
+  width: 100%;
+}
+
+.full {
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.loader_bg {
+  position: fixed;
+  z-index: 9999999;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+ul.btn {
+  float: right;
+}
+
+ul.btn li {
+  display: inline-block;
+  padding: 0 25px;
+}
+
+.header {
+  width: 100%;
+}

@@ -1,0 +1,46 @@
+// ESTILOS CON RESPECTO A LAS FUENTES
+.text-bg a:hover {
+  color: #fff;
+  transition: ease-in all 0.5s;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 13px;
+}
+
+.badge {
+  font-weight: 500;
+}
+
+ul.btn li a {
+  color: #fff;
+  font-size: 16px;
+}
+
+ul.lan li {
+  float: left;
+  color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+}
